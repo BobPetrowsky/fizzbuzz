@@ -25,8 +25,11 @@
 
 <div class="container">
 
-    <h1>Hello World!</h1>
-    <p class="lead">This is something!</p>
+    <h1>FizzBuzz!</h1>
+    <p class="lead">Enter a positive value!</p>
+    <input id="input"></input>
+    <button id="button" onclick="var input = document.getElementById('input').value; fizzbuzz(input);">Submit</button>
+    <ul id="output"></ul>
 
 </div><!-- /.container -->
 
@@ -36,5 +39,6 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/fizzbuzz.js"></script>
 </body>
 </html>
